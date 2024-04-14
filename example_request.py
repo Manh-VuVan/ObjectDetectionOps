@@ -6,7 +6,7 @@ import pprint
 import requests
 
 DETECTION_URL = "http://172.17.0.2:5000/v1/object-detection/yolov5s"
-IMAGE = "anh2.jpg"
+IMAGE = "giang.jpg"
 
 # Read image
 with open(IMAGE, "rb") as f:
